@@ -230,7 +230,7 @@ export default function Home(){
                 You have minted {utils.formatEther(balanceOfTokens)} Profit Unity Tokens. {/*formatEther helps convert BigNumbers to string  */}
               </div>
               <div className={styles.description}>
-                Overall {utils.formatEther(tokensMinted)}/10000 have been minted!!!
+                Overall {utils.formatEther(tokensMinted)}/10000 have been minted!
               </div>
               {renderButton()}
             </div>
